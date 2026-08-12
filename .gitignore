@@ -1,0 +1,36 @@
+# === Sécurité & Environnement (CRITIQUE) ===
+.env
+.env.*
+!.env.example
+secrets.json
+
+# === Environnement Virtuel Python ===
+.venv/
+venv/
+ENV/
+env/
+pythonenv*/
+
+# === Caches Python ===
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# === Bases de données locales ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === Fichiers Système & IDE ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
