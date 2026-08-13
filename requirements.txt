@@ -1,10 +1,16 @@
-python-jose[cryptography]
+
 fastapi[standard]
-sqlalchemy
+
+python-jose[cryptography]
 python-multipart
-psycopg2-binary
 pwdlib[argon2]
 pydantic-settings
 pyjwt
 
+# test
 pytest
+
+# tables
+sqlalchemy
+psycopg2-binary
+alembic
