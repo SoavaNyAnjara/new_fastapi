@@ -1,0 +1,6 @@
+
+
+[alembic]
+alembic revision --autogenerate -m "create users table"
+
+amlembic upgrade head
