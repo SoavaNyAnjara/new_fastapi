@@ -26,7 +26,7 @@ class AuthService:
                 "An existing user with this email is already exists"
             )
             
-        password_hash = hash_password(password)
+        password_hash = hash_password(password.get_secret_value())
         
         return self.user_repository.create(
             email=email,
